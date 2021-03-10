@@ -8,7 +8,7 @@
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook"
   },
   "husky": {
@@ -34,6 +34,7 @@
     "@babel/preset-typescript": "^7.12.17",
     "@storybook/addon-actions": "^6.1.21",
     "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-knobs": "^6.1.21",
     "@storybook/addon-links": "^6.1.21",
     "@storybook/react": "^6.1.21",
     "@testing-library/jest-dom": "^5.11.9",
