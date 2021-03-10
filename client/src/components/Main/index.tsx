@@ -1,8 +1,8 @@
 import { Container, Logo, Title, Description, Illustration } from './style'
 
 interface IMainProps {
-  title: string
-  description: string
+  title?: string
+  description?: string
 }
 
 export const Main: React.FC<IMainProps> = ({
